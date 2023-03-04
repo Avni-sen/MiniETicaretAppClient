@@ -3,7 +3,11 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FooterComponent } from './footer/footer.component';
+import { RouterModule } from '@angular/router';
 
+
+//html içerisinde linkendirme routing işlemi yapacaksak sayfayı tanımladığımız ana componentmodule 
+//içerisinde RoterModule tanımlaması yapmalıyız yoksa linklerimiz p etiketi ile yazılmış gibi duruyor.
 
 
 @NgModule({
@@ -13,7 +17,8 @@ import { FooterComponent } from './footer/footer.component';
     FooterComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     HeaderComponent,

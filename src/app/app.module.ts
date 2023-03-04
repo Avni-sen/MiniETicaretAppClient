@@ -5,6 +5,8 @@ import { AdminModule } from './admin/admin.module';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { UIModule } from './ui/ui.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 @NgModule({
   declarations: [
@@ -12,9 +14,11 @@ import { UIModule } from './ui/ui.module';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
+    MatSlideToggleModule,
     AdminModule,
-    UIModule
+    UIModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
