@@ -1,0 +1,29 @@
+.list-item {
+ background-color: rgba(#333, 0.5);
+ color: white;
+ padding: 0 20px;
+ border-bottom: 1px solid #ccc;
+ cursor: pointer;
+
+ a {
+  font-size: 18px;
+  font-weight: medium;
+  margin-left: 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: all .2s;
+ }
+
+ &:hover {
+  background: #fff;
+  border-bottom: 1px solidrgba(#333, 0.5);
+
+  a {
+   color: #333;
+  }
+ }
+}
+
+.mat-list-base {
+ padding-top: 0px !important;
+}
