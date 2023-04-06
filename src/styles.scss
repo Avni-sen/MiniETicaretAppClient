@@ -1,130 +1,166 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
- margin: 0;
- padding: 0;
- border: 0;
- font-size: 100%;
- font: inherit;
- vertical-align: baseline;
+@import 'ngx-toastr/toastr';
+
+
+.card .card-header .card-title {
+ margin-bottom: -28px !important;
 }
 
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
- display: block;
+table.dataTable thead .sorting,
+table.dataTable thead .sorting_asc,
+table.dataTable thead .sorting_desc,
+table.dataTable thead .sorting_asc_disabled,
+table.dataTable thead .sorting_desc_disabled {
+ background-position: center left !important;
 }
 
-body {
- line-height: 1;
+a:hover {
+ cursor: pointer !important;
 }
 
-ol,
-ul {
- list-style: none;
-}
-
-blockquote,
-q {
- quotes: none;
-}
-
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
- content: '';
- content: none;
+span:hover {
+ cursor: pointer !important;
 }
 
 table {
- border-collapse: collapse;
- border-spacing: 0;
+ width: 100%;
+}
+
+
+.mat-form-field {
+ font-size: 17px !important;
+ color: #000 !important;
+ font-weight: bold !important;
+
+}
+
+.mat-form-field input::placeholder {
+ color: #000 !important;
+}
+
+.mat-radio-label-content {
+ font-size: 17px !important;
+ color: #000 !important;
+ font-weight: bold !important;
+}
+
+.mat-radio-button.mat-radio-container.mat-radio-outer-circle {
+ border-color: #000 !important;
+}
+
+.vh-50 {
+ height: 50vh !important;
+}
+
+.height-55 {
+ height: 55px !important;
+}
+
+.min-60 {
+ min-height: 60px !important;
+}
+
+.min-height-60 {
+ min-height: 60px !important;
+}
+
+.font-size-23 {
+ font-size: 23px !important;
+}
+
+.font-size-20 {
+ font-size: 20px !important;
+}
+
+.font-5em {
+ font-size: 5em !important;
+}
+
+.font-xxlarge {
+ font-size: xx-large !important;
+}
+
+.font-larger {
+ font-size: larger !important;
+}
+
+.font-small {
+ font-size: small !important;
+}
+
+.template-color-purple {
+ color: #9c27b0 !important;
+}
+
+.template-color-danger {
+ color: #f44336 !important;
+}
+
+.template-color-navy-blue {
+ color: #1b2958 !important;
+}
+
+.color-black {
+ color: #000 !important;
+}
+
+.color-white {
+ color: #fff !important;
+}
+
+.template-background-navy-blue {
+ background-color: #1b2958 !important;
+}
+
+.opacity-09 {
+ opacity: 0.9 !important;
+}
+
+.w-85 {
+ width: 85% !important;
+}
+
+.r-0 {
+ right: 0 !important;
+}
+
+.l-0 {
+ left: 0 !important;
+}
+
+.t-0 {
+ top: 0 !important;
+}
+
+.b-0 {
+ bottom: 0 !important;
+}
+
+@media print {
+ @page {
+  size: auto !important
+ }
+}
+
+;
+
+.ps__rail-y {
+ z-index: 99999;
+}
+
+@media print {
+ @page {
+  size: auto !important
+ }
+}
+
+.cdk-overlay-container {
+ z-index: 10000 !important;
+}
+
+.swal2-container {
+ z-index: 10001 !important;
+}
+
+.alertify-notifier {
+ z-index: 10002 !important;
 }

@@ -12,4 +12,10 @@ import { RouterModule } from '@angular/router';
   ],
   declarations: [HomeComponent]
 })
-export class HomeModule { }
+export class HomeModule {
+
+  constructor() {
+
+  }
+
+}
